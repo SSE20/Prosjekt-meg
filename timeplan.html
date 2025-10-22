@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeplan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="timeplan.html">Timeplan</a></li>
+                <li><a href="fritidsaktiviteter.html">Fritidsaktiviteter</a></li>
+                <li><a href="bildegalleri.html">Bildegalleri</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- NAVBAR -->
+
+
+    <h2>Timeplan <i class="fa-solid fa-calendar"></i></h2>
+    <div class="timeplan-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Tid</th>
+                    <th>Mandag</th>
+                    <th>Tirsdag</th>
+                    <th>Onsdag</th>
+                    <th>Torsdag</th>
+                    <th>Fredag</th>
+
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>08:15 - 09:50</td>
+                    <td class="matte">R1</td>
+                    <td></td>
+                    <td class="tysk">Tysk</td>
+                    <td class="matte">R1</td>
+                    <td class="fysikk">Fysikk</td>
+                </tr>
+
+                <tr id="friminutt_lite">
+                    <td>09:50 - 10:00</td>
+                    <td colspan="5">Pause</td>
+                </tr>
+
+                <tr>
+                    <td>10:00 - 11:35</td>
+                    <td class="kjemi">Kjemi</td>
+                    <td>Kroppsøving</td>
+                    <td class="norsk">Norsk</td>
+                    <td>Historie</td>
+                    <td>IT</td>
+                </tr>
+
+                <tr id="friminutt">
+                    <td>11:35 - 12:20</td>
+                    <td colspan="5">Storefri</td>
+                </tr>
+
+                <tr>
+                    <td>12:20 - 14:55</td>
+                    <td class="norsk">Norsk</td>
+                    <td class="matte">R1</td>
+                    <td>IT</td>
+                    <td class="fysikk">Fysikk</td>
+                    <td class="tysk">Tysk</td>
+                </tr>
+
+                <tr id="friminutt_lite">
+                    <td>14:55 - 15:05</td>
+                    <td colspan="5">Pause</td>
+                </tr>
+
+                <tr>
+                    <td>15:05 - 16:40</td>
+                    <td>Klassens time</td>
+                    <td class="matte">R1</td>
+                    <td></td>
+                    <td class="kjemi">Kjemi</td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="fag"> <!-- ISTEDENFOR TA FAVORITTFAG -->
+
+        <h5>Litt om fagene</h5>
+        <ul>
+            <li>
+                <p><i class="fa-solid fa-flask"></i>Kjemi - spennende fag</p>
+            </li>
+            <li>
+                <p><i class="fa-solid fa-calculator"></i>Matte R1 - et av mine favorittfag, men det kan selvfølgelig
+                    være vanskelig noen ganger</p>
+            </li>
+            <li>
+                <p><i class="fa-solid fa-laptop"></i>IT - et av mine favorittfag, supergøy!</p>
+            </li>
+            <li>
+                <p><i class="fa-solid fa-pencil"></i>Norsk - så langt har vi bare gjort morsomme ting i norskfaget, men
+                    jeg synes det er helt ok</p>
+            </li>
+            <li>
+                <p><i class="fa-solid fa-earth-americas"></i>Tysk - helt ok, men veldig rolige timer!</p>
+            </li>
+            <li>
+                <p><i class="fa-solid fa-clock-rotate-left"></i>Historie - veldig spennende, men det kan bli vanskelig å
+                    konsentrere seg så lenge</p>
+            </li>
+            <li>
+                <p><i class="fa-solid fa-futbol"></i>Gym - gøy!</p>
+            </li>
+            <li>
+                <p><i class="fa-solid fa-tree"></i>Fysikk - spennende, men vanskelig</p>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <h7>Takk for at du besøkte siden min!</h7>
+        <ul>
+            <li>Solveig Sandnes Eggemoen</li>
+            <li id="info"><i class="fa-solid fa-phone"></i><a href="#">tlf: 12 34 56 78</a></li>
+            <li id="info"><i class="fa-solid fa-location-dot"></i><a href="#">Gjønnesjordet 30</a></li>
+            <li id="info"><i class="fa-solid fa-at"></i><a href="#">solveigse@gmail.com</a></li>
+
+            <div class="some">
+                <li id="info">
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li id="info">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </li>
+                <li id="info">
+                    <i class="fa-brands fa-square-snapchat"></i>
+                </li>
+            </div>
+
+        </ul>
+
+    </footer>
+    <!-- FOOTER -->
+</body>
+
+</html>

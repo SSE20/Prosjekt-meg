@@ -1,0 +1,315 @@
+/* CSS reset */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+
+    background-color: rgba(248, 231, 236);
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* CSS reset */
+
+nav {
+    background-color: rgb(224, 141, 158);
+    padding: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 253, 254);
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: rgba(248, 231, 236);
+    /* color: rgb(173, 111, 123); */
+    color: rgb(172, 71, 92);
+    transition: 500ms;
+    border-radius: 10%;
+    padding: 5px;
+
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(224, 141, 158);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+h7{
+    font-size: 20px;
+    color: rgb(255, 253, 254);
+}
+
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    margin: 10px;
+    font-size: 18px;
+    color: rgb(172, 71, 92);
+    text-decoration: none;
+}
+
+footer i{
+    margin-right: 8px;
+}
+
+footer a{
+    color: rgb(172, 71, 92);
+}
+
+footer #info:hover{
+    color: rgb(172, 71, 92);
+    transition: 300ms;
+    transform: scale(1.1);
+}
+.some{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.some i{
+    font-size: 30px;
+    
+}
+
+
+
+
+
+
+
+/* INDEX */
+
+main{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    padding: 30px;
+    
+}
+main section{
+    padding: 10px;
+    background-color: rgb(172, 71, 92);
+    line-height: 30px;
+}
+
+.informasjon{
+    grid-column: span 3;
+    grid-row: span 3;
+    border-radius: 40px 40px 0 40px;
+}
+.tomt_rom{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    border-radius: 0 40px 40px 0;
+}
+.bilder{
+    grid-column: 4/8;
+    grid-row: 1/2;
+    border-radius: 40px 40px 0 40px;
+}
+.familie{
+    grid-column: 5/8;
+    grid-row: 2/4;
+    border-radius: 0 0 40px 40px;
+}
+
+
+
+
+
+
+/* BILDEGALLERI */
+
+.bildegalleri {
+    display: grid;
+
+    max-width: 80%;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 6px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(172, 71, 92);
+}
+
+.bildegalleri img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.bildegalleri * {
+    text-align: center;
+    padding: 3px;
+}
+
+
+
+
+
+
+/* TIMEPLAN */
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+    font-family: "Playfair Display", serif;
+    /* color: rgb(185, 95, 113); */
+
+}
+.timeplan-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+td,
+th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    width: 15%;
+}
+
+th {
+    background-color: rgba(45, 138, 251, 0.573);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    /* Fyller container */
+    background-color: aliceblue;
+
+}
+
+
+
+#friminutt {
+    text-align: center;
+    background-color: lightgray;
+}
+
+#friminutt_lite {
+    text-align: center;
+    background-color: lightgray;
+}
+
+.fysikk {
+    background-color: rgba(128, 255, 0, 0.636);
+}
+
+.matte {
+    background-color: rgba(255, 0, 0, 0.727);
+}
+
+.tysk {
+    background-color: rgba(0, 255, 255, 0.633);
+}
+
+.kjemi {
+    background-color: rgba(205, 140, 50, 0.722);
+}
+
+.norsk {
+    background-color: rgba(252, 102, 230, 0.589);
+}
+
+.fag {
+    padding: 30px;
+}
+
+h5 {
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: rgb(172, 71, 92);
+}
+
+.fag li {
+    margin-bottom: 10px;
+}
+
+
+
+
+/* FRITIDSAKTIVITETER */
+
+.fritidsaktiviteter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+
+    width: 80%;
+    gap: 10px;
+}
+
+.fritidsaktiviteter div{
+    padding: 20px;
+    text-align: center;
+    
+    height: 300px;
+}
+
+h4{
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: rgba(248, 231, 236);
+}
+
+h6{
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: rgb(172, 71, 92);
+}
+
+.piano{
+    background-color: rgb(224, 141, 158);
+}
+.tennis{
+    background-color: rgb(172, 71, 92);
+}
+.vivil{
+    background-color: rgb(172, 71, 92);
+}
+.skiskyting{
+    background-color: rgb(224, 141, 158);
+}
