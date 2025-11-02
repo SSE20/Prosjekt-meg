@@ -14,6 +14,7 @@ body {
     font-family: "Raleway", sans-serif;
 
     background-color: rgba(248, 231, 236);
+    min-height: 100vh;
 }
 
 ol,
@@ -32,6 +33,7 @@ img {
 nav {
     background-color: rgb(224, 141, 158);
     padding: 5px;
+    
 }
 
 nav ul {
@@ -327,7 +329,6 @@ h2 {
     font-size: 40px;
     margin: 30px;
     font-family: "Playfair Display", serif;
-    /* color: rgb(185, 95, 113); */
 
 }
 
@@ -351,7 +352,6 @@ th {
 table {
     border-collapse: collapse;
     width: 100%;
-    /* Fyller container */
     background-color: aliceblue;
 
 }
@@ -408,6 +408,7 @@ table {
 
 .fag {
     padding: 30px;
+    margin-bottom: 50px;
 }
 
 h5 {
@@ -419,7 +420,7 @@ h5 {
 }
 
 .fag li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -542,4 +543,5 @@ h6 {
     .informasjon{
         margin-bottom: 20px;
     }
+
 }
